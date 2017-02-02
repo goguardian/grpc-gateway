@@ -13,7 +13,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/goguardian/protobuf/proto"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/grpc-ecosystem/grpc-gateway/utilities"
 	"golang.org/x/net/context"

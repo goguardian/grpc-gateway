@@ -4,7 +4,7 @@
 
 package google_api
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/goguardian/protobuf/proto"
 import fmt "fmt"
 import math "math"
 

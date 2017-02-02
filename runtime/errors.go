@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/goguardian/protobuf/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

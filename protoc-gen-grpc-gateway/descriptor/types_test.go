@@ -3,8 +3,8 @@ package descriptor
 import (
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	descriptor "github.com/golang/protobuf/protoc-gen-go/descriptor"
+	"github.com/goguardian/protobuf/proto"
+	descriptor "github.com/goguardian/protobuf/protoc-gen-go/descriptor"
 )
 
 func TestGoPackageStandard(t *testing.T) {
@@ -21,7 +21,7 @@ func TestGoPackageStandard(t *testing.T) {
 			want: true,
 		},
 		{
-			pkg:  GoPackage{Path: "github.com/golang/protobuf/jsonpb", Name: "jsonpb"},
+			pkg:  GoPackage{Path: "github.com/goguardian/protobuf/jsonpb", Name: "jsonpb"},
 			want: false,
 		},
 		{
@@ -57,8 +57,8 @@ func TestGoPackageString(t *testing.T) {
 			want: `"encoding/json"`,
 		},
 		{
-			pkg:  GoPackage{Path: "github.com/golang/protobuf/jsonpb", Name: "jsonpb"},
-			want: `"github.com/golang/protobuf/jsonpb"`,
+			pkg:  GoPackage{Path: "github.com/goguardian/protobuf/jsonpb", Name: "jsonpb"},
+			want: `"github.com/goguardian/protobuf/jsonpb"`,
 		},
 		{
 			pkg:  GoPackage{Path: "golang.org/x/net/context", Name: "context"},

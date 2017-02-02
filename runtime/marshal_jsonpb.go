@@ -7,12 +7,12 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/golang/protobuf/jsonpb"
-	"github.com/golang/protobuf/proto"
+	"github.com/goguardian/protobuf/jsonpb"
+	"github.com/goguardian/protobuf/proto"
 )
 
 // JSONPb is a Marshaler which marshals/unmarshals into/from JSON
-// with the "github.com/golang/protobuf/jsonpb".
+// with the "github.com/goguardian/protobuf/jsonpb".
 // It supports fully functionality of protobuf unlike JSONBuiltin.
 type JSONPb jsonpb.Marshaler
 
