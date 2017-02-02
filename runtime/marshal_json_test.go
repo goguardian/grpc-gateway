@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes/empty"
-	structpb "github.com/golang/protobuf/ptypes/struct"
-	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/golang/protobuf/ptypes/wrappers"
+	"github.com/goguardian/protobuf/proto"
+	"github.com/goguardian/protobuf/ptypes/empty"
+	structpb "github.com/goguardian/protobuf/ptypes/struct"
+	"github.com/goguardian/protobuf/ptypes/timestamp"
+	"github.com/goguardian/protobuf/ptypes/wrappers"
 	"github.com/grpc-ecosystem/grpc-gateway/examples/examplepb"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )

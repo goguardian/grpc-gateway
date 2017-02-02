@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/goguardian/protobuf/proto"
 )
 
 // A HandlerFunc handles a specific pair of path pattern and HTTP method.

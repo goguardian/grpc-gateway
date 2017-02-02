@@ -4,7 +4,7 @@
 
 package examplepb
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/goguardian/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis/google/api"

@@ -5,7 +5,7 @@
 
 PKG=github.com/grpc-ecosystem/grpc-gateway
 GO_PLUGIN=bin/protoc-gen-go
-GO_PLUGIN_PKG=github.com/golang/protobuf/protoc-gen-go
+GO_PLUGIN_PKG=github.com/goguardian/protobuf/protoc-gen-go
 SWAGGER_PLUGIN=bin/protoc-gen-swagger
 SWAGGER_PLUGIN_SRC= utilities/doc.go \
 		    utilities/pattern.go \

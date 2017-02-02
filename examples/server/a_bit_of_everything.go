@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"github.com/golang/protobuf/ptypes/empty"
+	"github.com/goguardian/protobuf/ptypes/empty"
 	examples "github.com/grpc-ecosystem/grpc-gateway/examples/examplepb"
 	sub "github.com/grpc-ecosystem/grpc-gateway/examples/sub"
 	sub2 "github.com/grpc-ecosystem/grpc-gateway/examples/sub2"

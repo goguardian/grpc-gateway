@@ -41,7 +41,7 @@ Then, `go get -u` as usual.
 ```sh
 go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
 go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
-go get -u github.com/golang/protobuf/protoc-gen-go
+go get -u github.com/goguardian/protobuf/protoc-gen-go
 ```
  
 ## Usage
@@ -184,7 +184,7 @@ Make sure that your `$GOPATH/bin` is in your `$PATH`.
 
 ## Parameters and flags
 `protoc-gen-grpc-gateway` supports custom mapping from Protobuf `import` to Golang import path.
-They are compatible to [the parameters with same names in `protoc-gen-go`](https://github.com/golang/protobuf#parameters).
+They are compatible to [the parameters with same names in `protoc-gen-go`](https://github.com/goguardian/protobuf#parameters).
 
 In addition we also support the `request_context` parameter in order to use the `http.Request`'s Context (only for Go 1.7 and above).
 This parameter can be useful to pass request scoped context between the gateway and the gRPC service.
@@ -234,7 +234,7 @@ But patch is welcome.
 * HTTP `Authorization` header is added as `authorization` gRPC request header 
 * Remaining Permanent HTTP header keys (as specified by the IANA [here](http://www.iana.org/assignments/message-headers/message-headers.xhtml) are prefixed with `grpcgateway-` and added with their values to gRPC request header
 * HTTP headers that start with 'Grpc-Metadata-' are mapped to gRPC metadata (prefixed with `grpcgateway-`)
-* While configurable, the default {un,}marshaling uses [jsonpb](https://godoc.org/github.com/golang/protobuf/jsonpb) with `OrigName: true`.
+* While configurable, the default {un,}marshaling uses [jsonpb](https://godoc.org/github.com/goguardian/protobuf/jsonpb) with `OrigName: true`.
 
 # Contribution
 See [CONTRIBUTING.md](http://github.com/grpc-ecosystem/grpc-gateway/blob/master/CONTRIBUTING.md).

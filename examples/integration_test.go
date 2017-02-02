@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/jsonpb"
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes/empty"
+	"github.com/goguardian/protobuf/jsonpb"
+	"github.com/goguardian/protobuf/proto"
+	"github.com/goguardian/protobuf/ptypes/empty"
 	gw "github.com/grpc-ecosystem/grpc-gateway/examples/examplepb"
 	sub "github.com/grpc-ecosystem/grpc-gateway/examples/sub"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"

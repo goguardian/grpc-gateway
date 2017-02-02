@@ -3,9 +3,9 @@ package descriptor
 import (
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	descriptor "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
+	"github.com/goguardian/protobuf/proto"
+	descriptor "github.com/goguardian/protobuf/protoc-gen-go/descriptor"
+	plugin "github.com/goguardian/protobuf/protoc-gen-go/plugin"
 )
 
 func loadFile(t *testing.T, reg *Registry, src string) *descriptor.FileDescriptorProto {
