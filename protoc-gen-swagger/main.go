@@ -11,8 +11,8 @@ import (
 	"github.com/golang/glog"
 	"github.com/goguardian/protobuf/proto"
 	plugin "github.com/goguardian/protobuf/protoc-gen-go/plugin"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger/genswagger"
+	"github.com/goguardian/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
+	"github.com/goguardian/grpc-gateway/protoc-gen-swagger/genswagger"
 )
 
 var (

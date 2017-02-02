@@ -9,8 +9,8 @@ import (
 	"github.com/goguardian/protobuf/proto"
 	"github.com/goguardian/protobuf/ptypes"
 	"github.com/goguardian/protobuf/ptypes/timestamp"
-	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/grpc-ecosystem/grpc-gateway/utilities"
+	"github.com/goguardian/grpc-gateway/runtime"
+	"github.com/goguardian/grpc-gateway/utilities"
 )
 
 func TestPopulateParameters(t *testing.T) {

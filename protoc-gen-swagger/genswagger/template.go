@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	pbdescriptor "github.com/goguardian/protobuf/protoc-gen-go/descriptor"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
+	"github.com/goguardian/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
 )
 
 func listEnumNames(enum *descriptor.Enum) (names []string) {
