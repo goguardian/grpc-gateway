@@ -11,8 +11,8 @@ import (
 	"github.com/golang/glog"
 	"github.com/goguardian/protobuf/proto"
 	plugin "github.com/goguardian/protobuf/protoc-gen-go/plugin"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
-	gen "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/generator"
+	"github.com/goguardian/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
+	gen "github.com/goguardian/grpc-gateway/protoc-gen-grpc-gateway/generator"
 )
 
 var (
@@ -31,8 +31,8 @@ func New(reg *descriptor.Registry, useRequestContext bool) gen.Generator {
 	for _, pkgpath := range []string{
 		"io",
 		"net/http",
-		"github.com/grpc-ecosystem/grpc-gateway/runtime",
-		"github.com/grpc-ecosystem/grpc-gateway/utilities",
+		"github.com/goguardian/grpc-gateway/runtime",
+		"github.com/goguardian/grpc-gateway/utilities",
 		"github.com/goguardian/protobuf/proto",
 		"golang.org/x/net/context",
 		"google.golang.org/grpc",
